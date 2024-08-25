@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <header className=" bg-sky-800 py-5">
+      <header className=" bg-sky-800 py-5 px-2">
         <div className=" max-w-4xl mx-auto my-3 flex justify-between items-center">
           <h1 className=" text-center text-lg font-bold text-white
            uppercase">
@@ -40,7 +40,7 @@ function App() {
         </div>
       </section>
 
-      <section className=" flex py-3  mx-auto max-w-4xl">
+      <section className=" block sm:flex py-3  mx-auto max-w-4xl">
         <div>
         <ActivityList
          activities={state.activities} 
